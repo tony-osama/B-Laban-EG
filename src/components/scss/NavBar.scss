@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #13649f;
+  .logo {
+    width: 50px;
+    height: 50px;
+    img {
+      width: 100%;
+    }
+  }
+  ul {
+    li {
+      .Link {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+      &:hover {
+        .Link {
+          color: #42b0ff;
+          background-color: #fff;
+          border-radius: 5px;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
