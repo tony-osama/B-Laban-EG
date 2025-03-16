@@ -5,12 +5,15 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"; //bootstrap js//
 import "@fortawesome/fontawesome-free/css/all.min.css"; //Font Awesome//
 import "./App.css";
 import Home from "./pages/home/home";
+import Categories from "./pages/categories/categories";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
+      <Routes>
+          <Route path="/" element={<Home />}>
+            <Route path="categories" element={<Categories />} />
+          </Route>
           {/* <Route path="/cart" element={<Cart />} />
           <Route path="/product" element={<Product />} /> */}
         </Routes>
