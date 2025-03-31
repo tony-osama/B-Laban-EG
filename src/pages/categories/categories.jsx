@@ -1,10 +1,12 @@
+import NavBar from "../../components/NavBar";
 import "../scss/categ.css";
 import img1 from "../../assets/images/imgOfCategories/images(1).jpg"
 import img2 from "../../assets/images/imgOfCategories/images(2).jpg"
 
- function Categories(){
+export default function Categories(){
 return(
 <>
+<NavBar/>
 <div className="container">
 <div className="row">
 <div className="p-3 col-lg-4">
@@ -30,4 +32,3 @@ return(
 </>
 )
  }
- export default Categories;

@@ -42,7 +42,7 @@ export default function NavBar() {
             </li>
             <li className="nav-item px-2">
               <NavLink
-                to="categories"
+                to="/categories"
                 className={({ isActive }) =>
                   isActive ? "nav-link active Link" : "nav-link Link"
                 }
